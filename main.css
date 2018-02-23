@@ -23,8 +23,6 @@ body {
 
 .left-col {
     width: 25%;
-    border-right: solid white 1px;
-    border-bottom: solid white 1px;
     display: table-cell;
 }
 
@@ -34,6 +32,7 @@ body {
 }
 
 .left-col article {
+    border-right: solid white 1px;
     border-bottom: solid white 1px;
     padding: 15px 20px 20px 15px;
 }
