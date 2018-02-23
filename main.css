@@ -2,6 +2,9 @@
 
 body {
     background-color: #474747;
+    font-family: "Articulat CF", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400; 
+    font-size: 1em;
 }
 
 .page-wrapper {
@@ -35,11 +38,27 @@ body {
     padding: 15px 20px 20px 15px;
 }
 
+footer {
+    color: white;
+    line-height: 35px;
+    margin: 25px 0 0 0;
+    text-align: right;
+    border-top: 1px solid #fff;
+    background: linear-gradient(
+        90deg,
+        #00334f,
+        #0090c0,
+        #0090c0,
+        #00334f
+    );
+}
+
 /* Image Styles_______________________ */
 
 .header-img {
     width: 100%;
     height: 200px;
+    opacity: .7;
     display: inherit;
     border-bottom: solid white 5px;
 }
@@ -56,6 +75,7 @@ header h1 {
     right: 30px;
     top: 50px;
     color: white;
+    z-index: 1000;
 }
 
 header h2 {
@@ -63,6 +83,7 @@ header h2 {
     right: 30px;
     top: 80px;
     color: black;
+    z-index: 1000;
 }
 
 .left-col h3 {
@@ -73,6 +94,7 @@ header h2 {
 .left-col li {
     color: #0090c0;
     margin-bottom: 10px;
+    margin-left: -15px;
 }
 
 .left-col p {
@@ -129,4 +151,13 @@ li {
     );
     border: solid white 1px;
     line-height: 30px;
+}
+
+footer a {
+    color: white;
+    padding-right: 20px;
+}
+
+footer a:hover {
+    color: #0090c0;
 }
