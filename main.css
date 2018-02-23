@@ -154,6 +154,7 @@ li {
 
 footer a {
     color: white;
+    text-decoration: none;
     padding-right: 20px;
 }
 
