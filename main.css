@@ -1,0 +1,159 @@
+/* General Styles_____________________ */
+
+body {
+    background-color: #474747;
+    font-family: "Articulat CF", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400; 
+    font-size: 1em;
+}
+
+.page-wrapper {
+    width: 65%;
+    margin: 0 auto;
+    background-color: #9cf;
+    border: solid white 5px;
+    position: relative;
+}
+
+/* Grid Styles________________________ */
+
+.column-container {
+    display: table;
+    border-top: solid white 5px;
+}
+
+.left-col {
+    width: 25%;
+    display: table-cell;
+}
+
+.right-col {
+    width: 75%;
+    display: table-cell;
+}
+
+.left-col article {
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+    padding: 15px 20px 20px 15px;
+}
+
+.right-col article {
+    padding: 0 20px 10px 20px;
+}
+
+footer {
+    color: white;
+    line-height: 1.5em;
+    margin: 25px 0 0 0;
+    text-align: right;
+    border-top: 1px solid #fff;
+    background: linear-gradient(
+        90deg,
+        #00334f,
+        #0090c0,
+        #0090c0,
+        #00334f
+    );
+}
+
+/* Image Styles_______________________ */
+
+.header-img {
+    width: 100%;
+    height: 200px;
+    opacity: .8;
+    display: inherit;
+}
+
+.article-img {
+    width: 20px;
+}
+
+/* Text Styles_______________________ */
+
+header h1 {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    color: white;
+    z-index: 1000;
+}
+
+header h2 {
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    color: black;
+    z-index: 1000;
+}
+
+.left-col h3 {
+    display: inline;
+    line-height: 25px;
+}
+
+.right-col h2,
+.right-col h3 {
+    color: white;
+    padding-left: 15px;
+    background: linear-gradient(
+        90deg,
+        #00334f,
+        #0090c0,
+        #0090c0,
+        #00334f
+    );
+    border: solid white 1px;
+    line-height: 30px;
+}
+
+.left-col p {
+    padding-left: 25px;
+}
+
+/* Special Styles______________________ */
+
+.left-col li {
+    color: #0090c0;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    list-style: none;
+}
+
+.left-col a,
+.right-col a {
+    color: #0090c0;
+}
+
+.left-col li a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-col a:hover,
+.left-col li a.designer:hover,
+.left-col li a.design-type:hover,
+.right-col a:hover   {
+    color: white;
+}
+
+li a.designer {
+    display: inline;
+    color: #0090c0;
+    text-decoration: none;
+}
+
+li a.design-type {
+    display: block;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+footer a:hover {
+    color: #9cf;
+}
