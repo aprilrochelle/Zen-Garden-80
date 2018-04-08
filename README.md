@@ -1,6 +1,6 @@
 # Zen Garden 80
 
-#Description
+## Description
 More in-depth practice with CSS and HTML by replicating design #80 from the CSS Zen Garden site.
 
 ## Screenshot
